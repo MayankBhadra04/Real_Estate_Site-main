@@ -1,0 +1,113 @@
+.foot-sect{
+    padding: 4rem 4rem;
+  }
+  .footer{
+    background-color: #050C9C;
+  
+  }
+  .foot-main {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-above{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  .foot-main-link{
+    width: 150px;
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+  }
+  .footbg{
+    color: rgb(175, 175, 179);
+    text-decoration: none;
+  }
+  .social{
+    display: flex;
+    flex-direction: row;
+  
+  }
+  .foot-main-link h4{
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 0.9rem;
+  }
+  .foot-main-link p{
+    font-size: 12px;
+    line-height: 15px;
+    margin:0.5rem 0;
+    cursor: pointer;
+  }
+  .footer-below{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.2rem;
+  }
+  .foot-below-link{
+    display: flex;
+    flex-direction: row;
+  }
+  .foot-below-link p{
+    font-size:13px;
+    line-height: 15px;
+    margin-left: 2rem;
+    color: white;
+    font-weight: 600;
+  }
+  hr{
+    color: white !important;
+    width: 100%;
+  }
+  .footer-copyright p{
+    font-size:13px;
+    line-height: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+  }
+  @media  screen and (max-width: 850px) {
+     .footer-heading h1{
+      font-size: 44px;
+      line-height: 50px;
+     }
+  }
+  
+  @media  screen and (max-width: 550px) {
+    .footer-heading h1{
+     font-size: 34px;
+     line-height: 42px;
+    }
+    .footer-above div{
+       margin: 1rem 0;
+    }
+    .footer-btn p{
+      font-size: 14px;
+      line-height: 20px;
+    }
+    .footer-below {
+      flex-direction: column;
+      justify-content: left;
+    }
+    .foot-below-link{
+      flex-direction: column;
+    }
+    .foot-below-link p{
+      margin-left: 0rem;
+      margin-top: 1rem;
+    }
+  }
+  @media  screen and (max-width: 400px) {
+    .footer-heading h1{
+     font-size: 27px;
+     line-height: 38px;
+    }
+  }

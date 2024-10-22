@@ -1,0 +1,41 @@
+.m-wrpper {
+    min-height: 100vh;
+    width: 100%;
+
+}
+.m-con{
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.m-con::-webkit-scrollbar{
+    display: none;
+
+}
+.m-con h1{
+    font-size: 7vw;
+    display: inline-block;
+}
+.m-main{
+    white-space: nowrap ;
+    display: inline-block;
+    animation-name: move;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.cir{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: orange;
+    display: inline-block;
+    margin:  1vw 2vw;
+}
+@keyframes move {
+    from{
+        transform: translateX(0);
+    }
+    to {
+     transform: translateX(-100%);
+    }
+}

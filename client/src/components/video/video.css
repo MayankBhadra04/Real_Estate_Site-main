@@ -1,0 +1,14 @@
+
+
+.video-container{
+  /* width:  50rem;
+  height: 50rem; */
+  border-radius: 30px;
+  overflow: hidden;
+  margin-top: 2% ;
+  border: 8px solid rgba(255, 255, 255, 0.12);
+}
+.video-container> video {
+  height: 100%;
+  width: 100%;
+}
